@@ -1,2 +1,2 @@
-# shelter_v2
+# minelibre
 Dépôt de développement du site web Minelibre.eu
