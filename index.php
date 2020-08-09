@@ -12,7 +12,7 @@
     <meta name="twitter:title" content="Minelibre">
     <meta name="twitter:description" content="Serveur Minecraft" />
     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
@@ -31,7 +31,7 @@ $videoDiff = $videoDate->diff($nowDate);
 ?>
 
     <div class="container pt-5">
-        <img src="images/logo.png" class="mx-auto d-block pb-5" alt="Minelibre">
+        <img src="images/logo.png" style="max-height: 150px;" class="mx-auto d-block pb-5" alt="Minelibre">
         <div class="alert alert-light">
             <h4 class="alert-heading pb-4" style="color: #333333;">Minelibre</h4>
             <p>Déjà plus de <?php echo $playDiff->y; ?> années que j'ai commencé à jouer à ce jeu. Et déjà plus de <?php echo $serverDiff->y; ?> années me séparent de la première exécution de ce fameux craftbukkit.jar, qui donnera un peu plus tard naissance à Minelibre.</p>
@@ -74,7 +74,7 @@ $videoDiff = $videoDate->diff($nowDate);
                     <span style="display:block;">Hispahan978</span>
                 </div>
                 <div class="col col-sm-3 pb-3 joueur">
-                    <img src="images/Steve.png" alt="Night">
+                    <img src="images/steve.png" alt="Night">
                     <span style="display:block;">Night</span>
                 </div>
                 <div class="col col-sm-3 pb-3 joueur">
@@ -88,15 +88,15 @@ $videoDiff = $videoDate->diff($nowDate);
             </div>
             <div class="row">
                 <div class="col col-sm-3 pb-3 joueur">
-                    <img src="images/Steve.png" alt="erdnivel">
+                    <img src="images/steve.png" alt="erdnivel">
                     <span style="display:block;">erdnivel</span>
                 </div>
                 <div class="col col-sm-3 pb-3 joueur">
-                    <img src="images/Steve.png" alt="maxtktdu33">
+                    <img src="images/steve.png" alt="maxtktdu33">
                     <span style="display:block;">maxtktdu33</span>
                 </div>
                 <div class="col col-sm-3 pb-3 joueur">
-                    <img src="images/Steve.png" alt="Saxuralle">
+                    <img src="images/steve.png" alt="Saxuralle">
                     <span style="display:block;">Saxuralle</span>
                 </div>
                 <div class="col col-sm-3 pb-3 joueur">
